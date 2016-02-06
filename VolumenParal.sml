@@ -1,9 +1,9 @@
-print("\nIngrese valor del Radio: ");
+print("\n\t\t\t\t -> Ingrese valor del Ancho: \n");
 val x = Real.fromInt( Option.valOf (TextIO.scanStream (Int.scan StringCvt.DEC) TextIO.stdIn) );
-print("\nIngrese valor de la Altura: ");
+print("\n\t\t\t\t -> Ingrese valor de la Altura: \n");
 val y = Real.fromInt( Option.valOf (TextIO.scanStream (Int.scan StringCvt.DEC) TextIO.stdIn) );
-print("\nIngrese valor de la Altura: ");
+print("\n\t\t\t\t -> Ingrese valor de la Profundidad: ");
 val z = Real.fromInt( Option.valOf (TextIO.scanStream (Int.scan StringCvt.DEC) TextIO.stdIn) );
-print("\n\nEl Volumen del cuerpo es: " ^ Real.toString(x*y*z) ^ " [u3]\n\n");
+print("\n\n\t\t\t\t R. El Volumen del cuerpo es: " ^ Real.toString(x*y*z) ^ " [u3]\n\n");
 
-use "Volumenes.sml";
+use "MenuPrincipal.sml";
