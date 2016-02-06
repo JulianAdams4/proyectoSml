@@ -1,0 +1,13 @@
+ATENCION!
+Antes que nada, al abrir SML pegar las siguientes 2 lineas:
+
+OS.FileSys.chDir("C:\\Users\\Jrx4\\Desktop\\ModuloVolumenes");
+use "Volumenes.sml";
+
+[Modificar el path a conveniencia]
+
+El modulo funciona llamando diversos archivos, por ejemplo:
+Cuando seleccionamos la opcion 1, abrimos el script del volumen de la esfera,
+Cuando seleccionamos la opcion 2, abrimos el script del volumen del cilindro, etc.
+
+Al finalizar cada script, se "vuelve" al menu inicial, volviendo a abrir dicho script
