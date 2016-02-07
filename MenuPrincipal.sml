@@ -4,8 +4,8 @@ print("\n\n\t\t\t\t Menu principal\n\n\n\t\t\t\t 1. Presione [1] para el Modulo 
 
 val opMenPrin = Option.valOf (TextIO.scanStream (Int.scan StringCvt.DEC) TextIO.stdIn);
 
-if opMenPrin = 1 then use "Volumenes.sml"
-else if opMenPrin = 2 then use "Volumenes.sml"
-else if opMenPrin = 3 then use "Volumenes.sml"
+if opMenPrin = 1 then use "MenuVolumenes.sml"
+else if opMenPrin = 2 then use "MenuVolumenes.sml"
+else if opMenPrin = 3 then use "MenuPolinomios.sml"
 else if opMenPrin = 4 then OS.Process.exit(OS.Process.success)
 else use "OpNoValidaMenuPrincipal.sml";
