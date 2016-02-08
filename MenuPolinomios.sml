@@ -5,6 +5,6 @@ print("\n\t\t\t\t Modulo de Polinomios --------------- \n\n\t\t\t\t Digite [1] p
 val opMenuPol = Option.valOf (TextIO.scanStream (Int.scan StringCvt.DEC) TextIO.stdIn);
 	
 if opMenuPol = 1 then use "PolinomioGrado2.sml"
-else if opMenuPol = 2 then use "PolinomioGrado2.sml"
+else if opMenuPol = 2 then use "PolinomioGrado3.sml"
 else if opMenuPol = 3 then use "PolinomioGrado2.sml"
 else use "OpNoValidaMenuPolinomios.sml";

@@ -1,14 +1,14 @@
 (* Polinomios de Grado 2 *)
-print("\n\t\t\t\t -> Ingrese valor del a: \n");
+print("\n\t\t\t\t Polinomio de la forma ax^2 + bx + c \n\t\t\t\t -> Ingrese valor de a: \n");
 val a = Real.fromInt( Option.valOf (TextIO.scanStream (Int.scan StringCvt.DEC) TextIO.stdIn) );
 
 if a < 1.0 then use "NoEsGrado2.sml"
 else print("\n\t\t\t\t Polinomio si es de grado 2!\n");
 
-print("\n\t\t\t\t -> Ingrese valor de la b: \n");
+print("\n\t\t\t\t -> Ingrese valor de b: \n");
 val b = Real.fromInt( Option.valOf (TextIO.scanStream (Int.scan StringCvt.DEC) TextIO.stdIn) );
 
-print("\n\t\t\t\t -> Ingrese valor de la c: \n");
+print("\n\t\t\t\t -> Ingrese valor de c: \n");
 val c = Real.fromInt( Option.valOf (TextIO.scanStream (Int.scan StringCvt.DEC) TextIO.stdIn) );
 
 val disc1 = (b*b) - 4.0*a*c;
