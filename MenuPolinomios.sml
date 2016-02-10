@@ -6,5 +6,5 @@ val opMenuPol = Option.valOf (TextIO.scanStream (Int.scan StringCvt.DEC) TextIO.
 	
 if opMenuPol = 1 then use "PolinomioGrado2.sml"
 else if opMenuPol = 2 then use "PolinomioGrado3.sml"
-else if opMenuPol = 3 then use "PolinomioGrado2.sml"
+else if opMenuPol = 3 then use "PolinomioGrado4.sml"
 else use "OpNoValidaMenuPolinomios.sml";

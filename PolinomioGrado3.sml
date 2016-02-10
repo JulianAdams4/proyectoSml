@@ -2,7 +2,7 @@
 print("\n\t\t\t\t Polinomio de la forma ax^3 + bx^2 + cx + d \n\t\t\t\t -> Ingrese valor de a: \n");
 val a = Real.fromInt( Option.valOf (TextIO.scanStream (Int.scan StringCvt.DEC) TextIO.stdIn) );
 
-if a < 1.0 then use "NoEsGrado2.sml"
+if a < 1.0 then use "NoEsGrado3.sml"
 else print("\n\t\t\t\t Polinomio si es de grado 2!\n");
 
 print("\n\t\t\t\t -> Ingrese valor de b: \n");
