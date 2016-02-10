@@ -1,8 +1,8 @@
 ATENCION!
 Antes que nada, al abrir SML pegar las siguientes 2 lineas:
 
-OS.FileSys.chDir("C:\\Users\\Jrx4\\Desktop\\ModuloVolumenes");
-use "Volumenes.sml";
+OS.FileSys.chDir("C:\\Users\\Lucho93\\Documents\\GitHub\\proyectoSml");
+use "MenuPrincipal.sml";
 
 [Modificar el path a conveniencia]
 
